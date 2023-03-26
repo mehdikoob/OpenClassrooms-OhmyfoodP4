@@ -1,0 +1,103 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+* {
+    font-family: roboto;
+}
+
+.body {
+height: 375px;
+flex-direction: column;
+}
+
+.container {
+    max-width: 120;
+}
+
+.bloc-logo {
+display: flex;
+flex-direction: column;
+align-items: center;
+border-bottom: 5px;
+padding-bottom: 5px;
+margin-top: 14px;
+
+}
+
+.size-logo {
+margin-top: 14px;
+}
+
+.bloc-city {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 50px;
+background: #EAEAEA;
+} 
+
+.icon-loc {
+display: flex;
+justify-content: center;
+align-items: center;
+padding-right: 3px;
+color:#353535;;
+}
+
+.flex { 
+    display: flex;
+
+}
+
+.size-city {
+    display: flex;
+    font-weight: bold;
+    color:#353535;
+
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#F7F7F7 ;
+
+}
+
+.reserve {
+    text-align: center;
+    width: 275px;
+    height: 68px;
+    margin-left: 42px;
+    margin-right: 58px;
+}
+
+.discover {
+text-align: center;
+    width: 315px;
+    height: 46px;
+    margin-right: 26px;
+    margin-left: 34px;
+}
+
+.button {
+    display: flex;
+    width: 218px;
+    height: 50px;
+    background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+    border-radius: 25px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
