@@ -1,0 +1,15 @@
+.bloc-logo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom: 5px;
+	padding-bottom: 5px;
+	margin-top: 14px;
+}
+
+.size-img {
+    display: flex;
+    justify-content: center;
+    width: 375px;
+    height: 275px;
+}
