@@ -1,3 +1,8 @@
+/* Général */
+* {
+	font-family: 'Roboto'
+}
+
 .bloc-logo {
 	display: flex;
 	flex-direction: column;
