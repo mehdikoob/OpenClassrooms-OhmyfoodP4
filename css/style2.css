@@ -8,13 +8,20 @@
 	align-items: center;
 }
 
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon-back {
+display: flex;	
+}
+
 .bloc-logo {
 	display: flex;
-	flex-direction: column;
 	align-items: center;
-	border-bottom: 5px;
-	padding-bottom: 5px;
-	margin-top: 14px;
+	justify-content: center;
 }
 
 .size-img {
@@ -41,9 +48,15 @@
 	top: -20px;
 }
 
-.fa-xl {
+.fa-xl1 {
+	margin-left: auto 0;
+	cursor: pointer;
+}
+
+.fa-xl2 {
 	padding-top: 20px;
 	padding-left: 50px;
+	cursor: pointer;
 }
 
 .upper {
