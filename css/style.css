@@ -177,7 +177,7 @@ nav {
 	display: block;
 	margin: auto;
 	width: 80%;
-	height: 235px;
+	height: 220px;
 	background-color: #FFFFFF;
 	border-radius: 15px;
 	margin-bottom: 20px;
@@ -193,7 +193,22 @@ nav {
 }
 
 .restau {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	margin-left: 20px;
+}
+
+.restau h3 {
+	margin-bottom: 0;
+}
+
+.restau p {
+	margin-top: 10px;
+}
+
+.heart-index {
+margin-right: 25px;
 }
 
 .logo-footer {
