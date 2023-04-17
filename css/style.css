@@ -1,6 +1,6 @@
 /* Général */
 * {
-	font-family: 'Roboto'
+	font-family: 'Roboto', sans-serif;
 }
 
 .bloc-logo {
@@ -201,6 +201,7 @@ nav {
 
 .restau h3 {
 	margin-bottom: 0;
+	font-weight: bold;
 }
 
 .restau p {
