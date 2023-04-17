@@ -93,7 +93,6 @@ nav {
 }
 
 
-
 /* Fonctionnement */
 .fonctionnement {
 	flex-direction: column;
@@ -134,7 +133,7 @@ nav {
 
 .number-container {
     position: relative;
-    left: -22px; /* La moitié de la largeur (24px) */
+    left: -22px;
     margin-right: -12px;
     z-index: 1;
 }
