@@ -240,3 +240,33 @@ footer {
 	padding-top: 22px;
 	color: white;
 }
+
+/* Responsive */
+
+@media (min-width: 1024px)
+{
+.bloc-logo {
+	justify-content: center;
+	height: 96px;
+}	
+
+.reserve {
+	width: auto;
+	height: auto;
+}
+
+.discover {
+	width: auto;
+	height: auto;
+}
+
+.button-funct {
+	width: 40%;
+}
+
+.button-mobile {
+	display: flex;
+
+}
+
+}
