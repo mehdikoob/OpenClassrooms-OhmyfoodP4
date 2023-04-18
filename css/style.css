@@ -94,9 +94,6 @@ nav {
 
 
 /* Fonctionnement */
-.fonctionnement {
-	flex-direction: column;
-}
 
 .title {
 	margin-left: 10%;
@@ -243,9 +240,9 @@ footer {
 
 /* Responsive */
 
-/* TABLETTE */
+/* Desktop + Tablette */
 
-@media (max-width: 1024px)
+@media screen (min-width: 1024px)
 {
 .bloc-logo {
 	justify-content: center;
@@ -301,61 +298,3 @@ footer {
 }
 }
 
-/* DESKTOP */
-
-@media (max-width: 1440px)
-{
-.bloc-logo {
-	justify-content: center;
-	height: 96px;
-}	
-
-
-.reserve {
-	width: auto;
-	height: auto;
-}
-
-.discover {
-	width: auto;
-	height: auto;
-}
-
-.fonctionnement {
-	margin: auto;
-	width: 90%;
-}
-
-.button-funct {
-	width: 40%;
-	margin-bottom: 4%;
-}
-
-.button-desktop {
-	display: flex;
-
-}
-.restau-card {
-	width: 40%;
-}
-
-.card-desktop {
-	display: flex;
-	margin-bottom: 40px;
-	margin-left: 1%;
-}
-
-.button-mobile {
-	display: flex;
-}
-
-.title {
-	margin-top: 4%;
-	margin-left: 6%;
-}
-
-.title2 {
-	margin-left: 6%;
-}
-
-}
