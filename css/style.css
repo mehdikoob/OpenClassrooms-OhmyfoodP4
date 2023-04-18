@@ -243,6 +243,8 @@ footer {
 
 /* Responsive */
 
+/* TABLETTE */
+
 @media (min-width: 1024px)
 {
 .bloc-logo {
@@ -266,7 +268,60 @@ footer {
 	margin-bottom: 4%;
 }
 
+.button-desktop {
+	display: flex;
+
+}
+.restau-card {
+	width: 40%;
+}
+
+.card-desktop {
+	display: flex;
+	margin-bottom: 40px;
+	margin-left: 1%;
+}
+
 .button-mobile {
+	display: flex;
+}
+
+.title {
+	margin-top: 4%;
+	margin-left: 6%;
+}
+
+.title2 {
+	margin-left: 6%;
+}
+}
+
+/* DESKTOP */
+
+@media (min-width: 1440px)
+{
+.bloc-logo {
+	justify-content: center;
+	height: 96px;
+}	
+
+
+.reserve {
+	width: auto;
+	height: auto;
+}
+
+.discover {
+	width: auto;
+	height: auto;
+}
+
+.button-funct {
+	width: 40%;
+	margin-bottom: 4%;
+}
+
+.button-desktop {
 	display: flex;
 
 }
