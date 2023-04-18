@@ -250,6 +250,10 @@ footer {
 	height: 96px;
 }	
 
+.title {
+	margin-top: 4%;
+}
+
 .reserve {
 	width: auto;
 	height: auto;
@@ -262,11 +266,24 @@ footer {
 
 .button-funct {
 	width: 40%;
+	margin-bottom: 4%;
 }
 
 .button-mobile {
 	display: flex;
 
+}
+.restau-card {
+	width: 40%;
+}
+
+.card-mobile {
+	display: flex;
+	margin-bottom: 40px;
+}
+
+.button-mobile {
+	display: flex;
 }
 
 }
