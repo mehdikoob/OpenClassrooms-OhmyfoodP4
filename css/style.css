@@ -250,9 +250,6 @@ footer {
 	height: 96px;
 }	
 
-.title {
-	margin-top: 4%;
-}
 
 .reserve {
 	width: auto;
@@ -277,13 +274,23 @@ footer {
 	width: 40%;
 }
 
-.card-mobile {
+.card-desktop {
 	display: flex;
 	margin-bottom: 40px;
+	margin-left: 1%;
 }
 
 .button-mobile {
 	display: flex;
+}
+
+.title {
+	margin-top: 4%;
+	margin-left: 6%;
+}
+
+.title2 {
+	margin-left: 6%;
 }
 
 }
