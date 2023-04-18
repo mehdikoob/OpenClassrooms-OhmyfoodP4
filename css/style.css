@@ -245,7 +245,7 @@ footer {
 
 /* TABLETTE */
 
-@media (min-width: 1024px)
+@media (max-width: 1024px)
 {
 .bloc-logo {
 	justify-content: center;
@@ -298,7 +298,7 @@ footer {
 
 /* DESKTOP */
 
-@media (min-width: 1440px)
+@media (max-width: 1440px)
 {
 .bloc-logo {
 	justify-content: center;
