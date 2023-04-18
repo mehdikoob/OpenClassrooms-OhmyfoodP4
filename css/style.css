@@ -268,6 +268,11 @@ footer {
 	margin-bottom: 4%;
 }
 
+.fonctionnement {
+	margin: auto;
+	width: 90%;
+}
+
 .button-desktop {
 	display: flex;
 
@@ -314,6 +319,11 @@ footer {
 .discover {
 	width: auto;
 	height: auto;
+}
+
+.fonctionnement {
+	margin: auto;
+	width: 90%;
 }
 
 .button-funct {
