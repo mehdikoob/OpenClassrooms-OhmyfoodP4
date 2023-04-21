@@ -136,3 +136,51 @@ footer {
 	padding-top: 22px;
 	color: white;
 }
+
+/* Responsive */
+
+@media (min-width: 768px) {
+
+/* Footer */
+
+.logo-footer {
+	margin-top: 12px;
+}
+
+.reverse {
+	direction: ltr;
+}
+
+.flex-desktop {
+	display: flex;
+	direction: rtl;
+	justify-content: space-around;
+}
+
+footer {
+	height: 114px;
+}
+
+.footer1 {
+	margin-right: -2%;
+	order: 4;
+	cursor: pointer;
+} 
+
+.footer2 {
+	margin-right: -2%;
+	order: 3;
+	cursor: pointer;
+}
+
+.footer3 {
+	margin-right: -2%;
+	order: 2;
+	cursor: pointer;
+}
+
+.footer4 {
+	margin-right: -2%;
+	order: 1;
+	cursor: pointer;
+} }
