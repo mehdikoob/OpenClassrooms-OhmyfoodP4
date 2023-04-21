@@ -109,9 +109,11 @@ display: flex;
 
 .price {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
+	font-weight: 700;
+	margin-right: 30px;
+	margin-top: -50px;
 }
-
 
 /* FOOTER */
 
@@ -146,6 +148,10 @@ footer {
 .bloc-logo {
 }
 
+.menu-desktop {
+	
+}
+
 .food-item {
 	justify-content: flex-end;
 	width: 70%;
@@ -155,12 +161,10 @@ footer {
 
 .marge1 {
 margin-top: 10px;
-width: 250px;
 height: 5px;
 }
 
 .marge2 {
-	width: 290px;
 	height: 0;
 	margin-left: 15px;
 }
