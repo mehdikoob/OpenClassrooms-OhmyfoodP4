@@ -217,7 +217,6 @@ nav {
 
 .heart-index {
 margin-right: 25px;
-z-index: 1;
 }
 
 .logo-footer {
@@ -349,9 +348,9 @@ footer {
 }
 
 .heart-index:hover {
-	color: #FF79DA;
-	background-color: #FF79DA;
-	z-index: 1;
+	background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+	color: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+
 }
 
 
