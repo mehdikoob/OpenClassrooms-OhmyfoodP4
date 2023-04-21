@@ -1,4 +1,4 @@
-/* Général */
+/* GÃ©nÃ©ral */
 * {
 	font-family: 'Roboto', sans-serif;
 }
@@ -94,6 +94,9 @@ nav {
 
 
 /* Fonctionnement */
+.fonctionnement {
+	flex-direction: column;
+}
 
 .title {
 	margin-left: 10%;
@@ -240,9 +243,9 @@ footer {
 
 /* Responsive */
 
-/* Desktop + Tablette */
+/* TABLETTE */
 
-@media screen (min-width: 1024px)
+@media (min-width: 768px)
 {
 .bloc-logo {
 	justify-content: center;
@@ -261,8 +264,9 @@ footer {
 }
 
 .button-funct {
-	width: 40%;
+	width: 30%;
 	margin-bottom: 4%;
+	margin-left: 0px;
 }
 
 .fonctionnement {
@@ -272,6 +276,7 @@ footer {
 
 .button-desktop {
 	display: flex;
+	justify-content: space-between;
 
 }
 .restau-card {
@@ -290,7 +295,7 @@ footer {
 
 .title {
 	margin-top: 4%;
-	margin-left: 6%;
+	margin-left: 0%;
 }
 
 .title2 {
@@ -298,3 +303,9 @@ footer {
 }
 }
 
+/* DESKTOP */
+
+@media (min-width: 1024px)
+{
+
+}
