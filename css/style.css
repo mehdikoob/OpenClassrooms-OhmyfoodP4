@@ -1,6 +1,6 @@
 /* GÃ©nÃ©ral */
 * {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto';
 }
 
 .stylefont {
@@ -217,6 +217,7 @@ nav {
 
 .heart-index {
 margin-right: 25px;
+z-index: 1;
 }
 
 .logo-footer {
@@ -243,7 +244,7 @@ footer {
 
 /* Responsive */
 
-/* TABLETTE */
+/* TABLETTE&Desktop */
 
 @media (min-width: 768px)
 {
@@ -277,6 +278,7 @@ footer {
 .button-desktop {
 	display: flex;
 	justify-content: space-between;
+	cursor: pointer;
 
 }
 .restau-card {
@@ -301,7 +303,57 @@ footer {
 .title2 {
 	margin-left: 6%;
 }
+
+/* Footer */
+
+.logo-footer {
+	margin-top: 12px;
 }
+
+.reverse {
+	direction: ltr;
+}
+
+.flex-desktop {
+	display: flex;
+	direction: rtl;
+	justify-content: space-around;
+}
+
+footer {
+	height: 114px;
+}
+
+.footer1 {
+	margin-right: -2%;
+	order: 4;
+	cursor: pointer;
+} 
+
+.footer2 {
+	margin-right: -2%;
+	order: 3;
+	cursor: pointer;
+}
+
+.footer3 {
+	margin-right: -2%;
+	order: 2;
+	cursor: pointer;
+}
+
+.footer4 {
+	margin-right: -2%;
+	order: 1;
+	cursor: pointer;
+}
+
+.heart-index:hover {
+	color: #FF79DA;
+	background-color: #FF79DA;
+	z-index: 1;
+}
+
 
 /* DESKTOP */
 
