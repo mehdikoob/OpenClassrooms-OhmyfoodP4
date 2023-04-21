@@ -141,6 +141,50 @@ footer {
 
 @media (min-width: 768px) {
 
+	/* logo */
+
+.bloc-logo {
+}
+
+.food-item {
+	justify-content: flex-end;
+	width: 70%;
+	height: 60px;
+	border-top: 10px;
+}
+
+.marge1 {
+margin-top: 10px;
+width: 250px;
+height: 5px;
+}
+
+.marge2 {
+	width: 290px;
+	height: 0;
+	margin-left: 15px;
+}
+
+.size-img {
+}
+
+.menu {
+	top: -40px;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	width: 70%;
+	margin-left: 15%;
+}
+.price {
+	display: flex;
+	justify-content: flex-end;
+	font-weight: 700;
+	margin-right: 25px;
+	margin-top: -25px;
+}
+
+
 /* Footer */
 
 .logo-footer {
