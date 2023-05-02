@@ -7,40 +7,52 @@
 
 .loader-container {
 	position: absolute;
-	background-color: white;
 	width: 100vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	transition: opacity 1s ease-in-out;
-}
-
-.dot {
+	animation: hideLoader 2.5s forwards;
+  }
+  
+  .dot {
 	height: 50px;
 	width: 50px;
 	border-radius: 50%;
 	margin: 0 15px;
-	animation: loader infinite 0.3s alternate 2s;
-}
-
-.d1 {
+	animation: loader infinite 0.3s alternate;
+  }
+  
+  .d1 {
 	background-color: #9356DC;
-}
-
-.d2 {
+  }
+  
+  .d2 {
 	background-color: #FF79DA;
 	animation-delay: 0.05s;
-}
-
-.d3 {
+  }
+  
+  .d3 {
 	background-color: #99E2D0;
 	animation-delay: 0.1s;
-}
-
-@keyframes loader {
-100% { 
-	transform: translateY(-30px);
-} }
+  }
+  
+  @keyframes loader {
+	100% {
+	  transform: translateY(-30px);
+	}
+  }
+  
+  @keyframes hideLoader {
+	0%, 90% {
+	  opacity: 1;
+	  visibility: visible;
+	}
+	100% {
+	  opacity: 0;
+	  visibility: hidden;
+	}
+  }
+  
 
 .stylefont {
 	font-style: normal;
