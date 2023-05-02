@@ -138,6 +138,7 @@ color: #353535;
 	padding-top: 2px;
 	opacity: 0;
 	transform: translateY(20px);
+	cursor: pointer;
   }
   
   .food-item:nth-child(odd) {
@@ -230,6 +231,7 @@ footer {
 
 footer a {
 	color: white;
+	text-decoration: none;
 }
 
 /* Responsive */
@@ -354,8 +356,9 @@ footer {
 	cursor: pointer;
 }
 
-.footer4 {
+footer4. {
 	margin-right: -2%;
 	order: 1;
 	cursor: pointer;
+	text-decoration: none;
 } }
