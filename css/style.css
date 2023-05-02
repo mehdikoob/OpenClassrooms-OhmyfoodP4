@@ -8,9 +8,20 @@
 .loader-container {
 	position: absolute;
 	width: 100vw;
+	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	animation: hideLoader 2.5s forwards;
+  }
+  
+  .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(128, 128, 128, 0.5);
 	animation: hideLoader 2.5s forwards;
   }
   
@@ -52,6 +63,7 @@
 	  visibility: hidden;
 	}
   }
+  
   
 
 .stylefont {
@@ -146,11 +158,6 @@ section a {
 	color: black;
 }
 
-.button-funct p {
-	font-weight: 500;
-}
-
-
 /* Fonctionnement */
 .fonctionnement {
 	flex-direction: column;
@@ -230,15 +237,17 @@ section a {
 	margin-left: 8%;
 	padding-left: 12px;
 	transition: background-color 0.3s ease, box-shadow 0.3s ease;
+	cursor: pointer;
   }
+
+  .button-funct p {
+	font-weight: 500;
+}
   
   .button-funct:hover {
 	background-color: #F7F7F7;
 	box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.2);
   }
-  
-  
-  
 
 .restaurants {
 	display: flex;
@@ -256,7 +265,13 @@ section a {
 	border-radius: 15px;
 	margin-bottom: 20px;
 	box-sizing: border-box;
+	transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
+
+.restau-card:hover {
+	background-color: #F7F7F7;
+	box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.2);
+  }
 
 .size-img {
 	object-fit: cover;
@@ -306,6 +321,10 @@ footer {
 	padding-bottom: 10px;
 	padding-left: 25px;
 	padding-top: 22px;
+	color: white;
+}
+
+footer a {
 	color: white;
 }
 

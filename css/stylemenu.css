@@ -3,8 +3,8 @@
 	font-family: 'Roboto', sans-serif;
 }
 
-a {
-	text-decoration: none;
+header a {
+	color: black;
 }
 
 /* LOADER */
@@ -71,6 +71,7 @@ a {
 
 .icon-back {
 display: flex;
+color: #353535;
 }
 
 .bloc-logo {
@@ -190,6 +191,10 @@ footer {
 	padding-bottom: 10px;
 	padding-left: 25px;
 	padding-top: 22px;
+	color: white;
+}
+
+footer a {
 	color: white;
 }
 
