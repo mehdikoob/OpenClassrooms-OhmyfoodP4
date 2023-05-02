@@ -136,7 +136,41 @@ color: #353535;
 	margin-left: 10px;
 	margin-bottom: 15px;
 	padding-top: 2px;
-}
+	opacity: 0;
+	transform: translateY(20px);
+  }
+  
+  .food-item:nth-child(odd) {
+	animation: fadeInFromLeft 2s ease-out forwards;
+  }
+  
+  .food-item:nth-child(even) {
+	animation: fadeInFromRight 2s ease-out forwards;
+  }
+  
+  @keyframes fadeInFromLeft {
+	0% {
+	  opacity: 0;
+	  transform: translateX(-20px);
+	}
+	100% {
+	  opacity: 1;
+	  transform: none;
+	}
+  }
+  
+  @keyframes fadeInFromRight {
+	0% {
+	  opacity: 0;
+	  transform: translateX(20px);
+	}
+	100% {
+	  opacity: 1;
+	  transform: none;
+	}
+  }
+  
+  
 
 .button {
 	font-family: 'roboto';
