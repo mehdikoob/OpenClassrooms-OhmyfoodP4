@@ -7,6 +7,46 @@ a {
 	text-decoration: none;
 }
 
+/* LOADER */
+
+.loader-container {
+	position: relative;
+	background-color: #F7F7F7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: opacity 1s ease-in-out;
+  }
+  
+  .dot {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	margin: 0 15px;
+	animation: loader 0.6s alternate;
+  }
+  
+  .d1 {
+	background-color: #9356DC;
+  }
+  
+  .d2 {
+	background-color: #FF79DA;
+	animation-delay: 0.05s;
+  }
+  
+  .d3 {
+	background-color: #99E2D0;
+	animation-delay: 0.1s;
+  }
+  
+  @keyframes loader {
+	100% {
+	  transform: translateY(-30px);
+	}
+  }
+  
+
 .flex {
 	display: flex;
 	align-items: center;
