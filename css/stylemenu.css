@@ -139,14 +139,43 @@ color: #353535;
 	opacity: 0;
 	transform: translateY(20px);
 	cursor: pointer;
-  }
-  
-  .food-item:nth-child(odd) {
 	animation: fadeInFromLeft 2s ease-out forwards;
   }
   
-  .food-item:nth-child(even) {
-	animation: fadeInFromRight 2s ease-out forwards;
+  .entr > .food-item:nth-child(2) {
+	animation-delay: 0s;
+  }
+  
+  .entr > .food-item:nth-child(3) {
+	animation-delay: 0.25s;
+  }
+  
+  .entr > .food-item:nth-child(4) {
+	animation-delay: 0.5s;
+  }
+  
+  .plats > .food-item:nth-child(2) {
+	animation-delay: 0.75s;
+  }
+  
+  .plats > .food-item:nth-child(3) {
+	animation-delay: 1s;
+  }
+  
+  .plats > .food-item:nth-child(4) {
+	animation-delay: 1.25s;
+  }
+  
+  .desserts > .food-item:nth-child(2) {
+	animation-delay: 1.5s;
+  }
+  
+  .desserts > .food-item:nth-child(3) {
+	animation-delay: 1.75s;
+  }
+  
+  .desserts > .food-item:nth-child(4) {
+	animation-delay: 2s;
   }
   
   @keyframes fadeInFromLeft {
@@ -160,16 +189,7 @@ color: #353535;
 	}
   }
   
-  @keyframes fadeInFromRight {
-	0% {
-	  opacity: 0;
-	  transform: translateX(20px);
-	}
-	100% {
-	  opacity: 1;
-	  transform: none;
-	}
-  }
+  
   
   
 
