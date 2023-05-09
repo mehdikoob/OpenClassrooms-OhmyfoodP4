@@ -7,55 +7,7 @@ header a {
 	color: black;
 }
 
-/* LOADER */
 
-.loader-container {
-	position: absolute;
-	width: 100vw;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	animation: hideLoader 2.5s forwards;
-  }
-  
-  .dot {
-	height: 50px;
-	width: 50px;
-	border-radius: 50%;
-	margin: 0 15px;
-	animation: loader infinite 0.3s alternate;
-  }
-  
-  .d1 {
-	background-color: #9356DC;
-  }
-  
-  .d2 {
-	background-color: #FF79DA;
-	animation-delay: 0.05s;
-  }
-  
-  .d3 {
-	background-color: #99E2D0;
-	animation-delay: 0.1s;
-  }
-  
-  @keyframes loader {
-	100% {
-	  transform: translateY(-30px);
-	}
-  }
-  
-  @keyframes hideLoader {
-	0%, 90% {
-	  opacity: 1;
-	  visibility: visible;
-	}
-	100% {
-	  opacity: 0;
-	  visibility: hidden;
-	}
-  }
   
 
 .flex {
@@ -115,6 +67,85 @@ color: #353535;
 	cursor: pointer;
 }
 
+/* LOADER */
+
+.loader-container {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: hideLoader 2.5s forwards;
+  }
+  
+  .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 2057px;
+	bottom: 0;
+	background-color: rgba(255, 255, 255, 0.705);
+	animation: hideLoader 2.5s forwards;
+  }
+
+  @keyframes loader {
+	100% {
+	  transform: translateY(-30px);
+	}
+  }
+  
+  @keyframes hideLoader {
+	0%, 90% {
+	  opacity: 1;
+	  visibility: visible;
+	}
+	100% {
+	  opacity: 0;
+	  visibility: hidden;
+	}
+  }
+  
+  .dot {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	margin: 0 15px;
+	animation: loader infinite 0.3s alternate;
+  }
+  
+  .d1 {
+	background-color: #9356DC;
+  }
+  
+  .d2 {
+	background-color: #FF79DA;
+	animation-delay: 0.05s;
+  }
+  
+  .d3 {
+	background-color: #99E2D0;
+	animation-delay: 0.1s;
+  }
+  
+  @keyframes loader {
+	100% {
+	  transform: translateY(-30px);
+	}
+  }
+  
+  @keyframes hideLoader {
+	0%, 90% {
+	  opacity: 1;
+	  visibility: visible;
+	}
+	100% {
+	  opacity: 0;
+	  visibility: hidden;
+	}
+  }
+
 /* TEST HOVER COEUR */
 
 
@@ -131,7 +162,7 @@ color: #353535;
 .food-item {
 	width: 94%;
 	height: 90px;
-	box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
 	border-radius: 15px;
 	margin-left: 10px;
 	margin-bottom: 15px;
