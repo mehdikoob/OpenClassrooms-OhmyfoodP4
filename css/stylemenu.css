@@ -7,9 +7,6 @@ header a {
 	color: black;
 }
 
-
-  
-
 .flex {
 	display: flex;
 	align-items: center;
@@ -84,10 +81,11 @@ color: #353535;
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 2057px;
+	height: 1970px;
 	bottom: 0;
 	background-color: rgba(255, 255, 255, 0.705);
 	animation: hideLoader 2.5s forwards;
+	opacity: 0;
   }
 
   @keyframes loader {
@@ -146,9 +144,68 @@ color: #353535;
 	}
   }
 
-/* TEST HOVER COEUR */
+  /* COEUR */
 
+  .heart-btn:hover::after {
+    transform: scaleY(0);
+}
+.heart-btn:hover .heart-btn__empty {
+    opacity: 0;
+}
+.heart-btn:hover .heart-btn__filled {
+    transform: scale(1);
+}
+.heart-btn--accent {
+    cursor: pointer;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    bottom: 30px;
+    right: 24px;
+}
 
+.heart-btn {
+    font-size: 1.5em;
+}
+.heart-btn--accent::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    z-index: 1;
+    transition: transform 500ms cubic-bezier(0.55, 1.2, 0.93, 1);
+    transform-origin: top;
+    background: #f6f6f6;
+    background: white;
+}
+.heart-btn--accent {
+    width: 24px;
+    height: 24px;
+    bottom: 30px;
+    right: 24px;
+}
+.heart-btn__empty {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 100;
+    z-index: 2;
+}
+.heart-btn__filled {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background: linear-gradient(176deg, #9356DC 0%, #FF79DA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* ANIMATION MENU */
 .upper {
 	font-family:'roboto';
 	text-transform: uppercase;
