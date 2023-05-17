@@ -35,14 +35,13 @@ color: #353535;
 .title-restau {
 	font-family: 'Shrikhand';
 	font-weight: 400;
-	padding-top: 20px;
 	padding-left: 20px;
 }
 .header-container {
     display: flex;
     align-items: center;
+	justify-content: center;
     justify-content: space-between;
-    padding-right: 40%;
 }
 
 .menu {
@@ -76,6 +75,7 @@ color: #353535;
 	justify-content: center;
 	align-items: center;
 	animation: hideLoader 2.5s forwards;
+	margin-left: -20%;
   }
   
   .overlay {
@@ -85,7 +85,7 @@ color: #353535;
 	right: 0;
 	height: 1970px;
 	bottom: 0;
-	background-color: rgba(255, 255, 255, 0.705);
+	background-color: rgba(255, 255, 255, 0.897);
 	animation: hideLoader 2.5s forwards;
 	opacity: 0;
   }
@@ -387,6 +387,7 @@ footer a {
 }
 
 .flex {
+display: flex;
 justify-content: center;
 }
 
