@@ -7,11 +7,6 @@ header a {
 	color: black;
 }
 
-.flex {
-	display: flex;
-	align-items: center;
-}
-
 .logo {
 	display: flex;
 	align-items: center;
@@ -43,6 +38,12 @@ color: #353535;
 	padding-top: 20px;
 	padding-left: 20px;
 }
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 40%;
+}
 
 .menu {
 	width: 100%;
@@ -51,6 +52,7 @@ color: #353535;
 	position: relative;
 	top: -20px;
 	z-index: 1;
+	padding: 20px;
 }
 
 .fa-xl1 {
@@ -157,7 +159,6 @@ color: #353535;
 }
 .heart-btn--accent {
     cursor: pointer;
-    position: absolute;
     width: 24px;
     height: 24px;
     bottom: 30px;
@@ -166,7 +167,7 @@ color: #353535;
 
 .heart-btn {
     font-size: 1.5em;
-}
+	}
 .heart-btn--accent::after {
     content: "";
     position: absolute;
