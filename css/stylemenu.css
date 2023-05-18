@@ -16,6 +16,7 @@ header a {
 .icon-back {
 display: flex;
 color: #353535;
+z-index: 999;
 }
 
 .bloc-logo {
@@ -82,7 +83,21 @@ justify-content: space-between;}
 	align-items: center;
 	animation: hideLoader 2.5s forwards;
 	margin-left: -20%;
+	margin-left: 1%;
   }
+
+  .loader-wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+
+  
   
   .overlay {
 	position: absolute;
