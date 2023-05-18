@@ -84,10 +84,12 @@ nav {
 	align-items: center;
 	margin-bottom: 50px;
 	cursor: pointer;
+	z-index: 0;
 }
 
 header a {
 	color: white;
+	cursor: pointer;
 }
 
 section a {
@@ -175,6 +177,7 @@ section a {
 	padding-left: 12px;
 	transition: background-color 0.3s ease, box-shadow 0.3s ease;
 	cursor: pointer;
+	z-index: 0;
   }
 
   .button-funct p {
