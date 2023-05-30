@@ -20,12 +20,12 @@
 	margin-top: 14px;
 }
 
-.bloc-city {
+.size-city {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 50px;
-	background: #EAEAEA;
+	font-weight: bold;
+	color: #353535;
+	border: none;
+	background-color: transparent;
 }
 
 .icon-loc {
@@ -34,8 +34,16 @@
 	align-items: center;
 	padding-right: 3px;
 	color: #353535;
-	;
 }
+
+.bloc-city {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	background: #EAEAEA;
+}
+
 
 a {
 	text-decoration: none;
@@ -43,12 +51,6 @@ a {
 
 .flex {
 	display: flex;
-}
-
-.size-city {
-	display: flex;
-	font-weight: bold;
-	color: #353535;
 }
 
 nav {
@@ -269,6 +271,11 @@ footer a {
 	color: white;
 }
 
+.gp {
+	display: flex;
+	align-items: center;
+}
+
 /* LOADER */
 
 .loader-container {
@@ -472,10 +479,6 @@ footer a {
 
 /* Footer */
 
-.logo-footer {
-	margin-top: 12px;
-}
-
 .reverse {
 	direction: ltr;
 }
@@ -483,33 +486,42 @@ footer a {
 .flex-desktop {
 	display: flex;
 	direction: rtl;
-	justify-content: space-around;
-}
-
-footer {
+	justify-content: space-between;
 	height: 114px;
 }
 
+.footer {
+	height: 114px;
+}
+
+.logo-footer {
+	margin-top: 12px;
+	margin-left: ;
+}
+
+.footer a {
+	cursor: pointer;
+	padding-left:9% ;
+	padding-top: 7%;
+}
+
 .footer1 {
-	margin-right: -2%;
 	order: 4;
 	cursor: pointer;
 } 
 
 .footer2 {
-	margin-right: -2%;
 	order: 3;
 	cursor: pointer;
 }
 
 .footer3 {
-	margin-right: -2%;
 	order: 2;
 	cursor: pointer;
+	margin-right: -30%;
 }
 
 .footer4 {
-	margin-right: -2%;
 	order: 1;
 	cursor: pointer;
 }
