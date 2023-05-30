@@ -87,7 +87,7 @@ nav {
 	align-items: center;
 	margin-bottom: 50px;
 	cursor: pointer;
-	z-index: 1;
+	z-index: 2;
 }
 
 .button:hover {
@@ -191,7 +191,6 @@ section a {
 	padding-left: 12px;
 	transition: background-color 0.3s ease, box-shadow 0.3s ease;
 	cursor: pointer;
-	z-index: 1;
   }
 
   .button-funct p {
@@ -316,20 +315,23 @@ footer a {
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 1440px;
+	height: 1500px;
+	width: 110%;
 	bottom: 0;
 	background-color: rgba(233, 233, 233, 0.8);
 	animation: hideLoader 2.5s forwards;
-	opacity: 0;
-	z-index: 999;
+	z-index: 2;
   }
   
   .dot {
-	height: 50px;
-	width: 50px;
+	top: 200px;
+	position: relative;
+	height: 20px;
+	width: 20px;
 	border-radius: 50%;
 	margin: 0 15px;
 	animation: loader infinite 0.3s alternate;
+	z-index: 999;
   }
   
   .d1 {
@@ -525,7 +527,7 @@ footer a {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 15px;
-	padding-right: 30px;
+	padding-right: 45px;
 	padding-left: 30px;
 }
 
