@@ -489,20 +489,27 @@ justify-content: center;
 .footer-propose {
 	cursor: pointer;
 	padding-left: 20px;
+	z-index: 1;
+
 } 
 
 .footer-devenir {
 	cursor: pointer;
+	z-index: 1;
+
 }
 
 .footer-mention {
 	cursor: pointer;
 	padding-left: 20px;
+	z-index: 1;
+
 }
 
 .footer-contact {
 	cursor: pointer;
 	padding-left: 50px;
+	z-index: 1;
 }
 
 .groupe1 {
