@@ -309,6 +309,18 @@ justify-content: space-between;}
 .marge1 {
 font-weight: bold;
 font-size: large;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+}
+
+.marge2 {
+	text-overflow: ellipsis;
+
+}
+
+.size-item {
+	width: 85%;
 }
 
 

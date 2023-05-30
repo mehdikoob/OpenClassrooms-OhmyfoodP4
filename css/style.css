@@ -116,7 +116,7 @@ section a {
 }
 
 
-. .button-funct:hover .icon-flex:hover {
+.button-funct:hover .icon-flex  {
 	color: rgba(147, 86, 220, 1);
 }
 
@@ -523,5 +523,4 @@ footer a {
 
 .footer4 {
 	order: 1;
-	cursor: pointer;
 }
