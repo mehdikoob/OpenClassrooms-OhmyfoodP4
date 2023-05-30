@@ -58,7 +58,6 @@ justify-content: space-between;}
 	position: relative;
 	top: -20px;
 	z-index: 1;
-	padding: 20px;
 }
 
 .fa-xl1 {
@@ -237,7 +236,7 @@ justify-content: space-between;}
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 88%;
-    height: 90px;
+    height: 69px;
     opacity: 0;
     transform: translateY(20px);
     cursor: pointer;
@@ -307,12 +306,10 @@ justify-content: space-between;}
 }
 
 .marge1 {
-	font-weight: bold;
+font-weight: bold;
+font-size: large;
 }
 
-.marge2 {
-	margin-bottom: 0;
-}
 
 /* ANIMATION CHECK */
 
@@ -401,10 +398,6 @@ footer a {
 .flex {
 display: flex;
 justify-content: center;
-}
-
-.entr {
-	margin-bottom: 5%;
 }
 
 .plats {
