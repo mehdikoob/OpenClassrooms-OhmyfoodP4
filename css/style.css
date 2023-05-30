@@ -43,9 +43,8 @@
 	align-items: center;
 	height: 50px;
 	background: #EAEAEA;
-    padding-left: 5%;
+    padding-left: 50px;
 }
-
 
 a {
 	text-decoration: none;
@@ -88,7 +87,7 @@ nav {
 	align-items: center;
 	margin-bottom: 50px;
 	cursor: pointer;
-	z-index: 0;
+	z-index: 1;
 }
 
 .button:hover {
@@ -154,7 +153,6 @@ section a {
     position: relative;
     left: -22px;
     margin-right: -12px;
-    z-index: 1;
 }
 
 .flex {
@@ -178,6 +176,7 @@ section a {
 }
 
 .button-funct {
+	position: relative;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -192,7 +191,7 @@ section a {
 	padding-left: 12px;
 	transition: background-color 0.3s ease, box-shadow 0.3s ease;
 	cursor: pointer;
-	z-index: 0;
+	z-index: 1;
   }
 
   .button-funct p {
@@ -202,6 +201,7 @@ section a {
   .button-funct:hover {
 	background-color: #F7F7F7;
 	box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
   }
 
 .restaurants {
@@ -427,6 +427,24 @@ footer a {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive */
 
 /* DESKTOP + TABLETTE */
@@ -451,7 +469,6 @@ footer a {
 .button-funct {
 	width: 30%;
 	margin-bottom: 4%;
-	margin-left: 0px;
 }
 
 .fonctionnement {
@@ -551,4 +568,4 @@ footer a {
 	display: flex;
 }
 
-}
+} 
