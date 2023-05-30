@@ -34,7 +34,7 @@
 	align-items: center;
 	padding-right: 3px;
 	color: #353535;
-	margin-right: 10px;
+	margin-right: 1px;
 }
 
 .bloc-city {
@@ -491,13 +491,12 @@ footer a {
 /* Footer */
 
 .reverse {
-	direction: ltr;
+	direction: rtl;
 }
 
 .flex-desktop {
 	display: flex;
 	direction: rtl;
-	justify-content: space-between;
 	height: 114px;
 }
 
@@ -506,29 +505,43 @@ footer a {
 }
 
 .logo-footer {
-	margin-top: 12px;
-	margin-right: -6%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+	padding-right: 30px;
+	padding-left: 30px;
 }
 
 .footer a {
 	cursor: pointer;
 }
 
-.footer1 {
-	order: 4;
+.footer-propose {
 	cursor: pointer;
+	padding-left: 20px;
 } 
 
-.footer2 {
-	order: 3;
+.footer-devenir {
 	cursor: pointer;
 }
 
-.footer3 {
-	order: 2;
+.footer-mention {
 	cursor: pointer;
+	padding-left: 20px;
 }
 
-.footer4 {
-	order: 1;
-} }
+.footer-contact {
+	cursor: pointer;
+	padding-left: 50px;
+}
+
+.groupe1 {
+	display:flex;
+	justify-content: space-between;
+}
+
+.groupe2 {
+	display: flex;
+}
+
+}
