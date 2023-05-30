@@ -103,11 +103,12 @@ justify-content: space-between;}
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 2120px;
+	height: 1950px;
 	width: 100%;
 	bottom: 0;
 	background-color: rgba(233, 233, 233, 0.8);
 	animation: hideLoader 2.5s forwards;
+	z-index: 999;
   }
   
   .dot {
