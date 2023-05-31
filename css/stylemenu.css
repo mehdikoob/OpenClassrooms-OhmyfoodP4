@@ -319,7 +319,9 @@ overflow: hidden;
 }
 
 .marge2 {
-	text-overflow: ellipsis;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
 
 }
 
