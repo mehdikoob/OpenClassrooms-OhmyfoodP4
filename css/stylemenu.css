@@ -241,6 +241,9 @@ justify-content: space-between;}
     transform: translateY(20px);
     cursor: pointer;
     animation: fadeInFromLeft 2s ease-out forwards;
+	text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
 }
 
 .entr .food-item:nth-child(2) {
@@ -337,6 +340,7 @@ overflow: hidden;
 	position: relative;
 	z-index: 2;
 	transition: transform 0.5s cubic-bezier(.25,.46,.45,.94);
+	margin-top: 40px;
 }
 
 .check {
