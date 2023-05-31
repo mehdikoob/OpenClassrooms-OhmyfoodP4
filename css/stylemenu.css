@@ -57,8 +57,8 @@ justify-content: space-between;}
 	border-radius: 25px 25px;
 	position: relative;
 	top: -20px;
-	z-index: 1;
-	height: 1267px;
+	height: 100%;
+	padding-bottom: 30px;
 }
 
 .fa-xl1 {
@@ -302,7 +302,6 @@ justify-content: space-between;}
 	justify-content: center;
 	align-items: center;
 	margin-left: 31%; 
-	margin-top: 70px;
 }
 
 .button:hover {
@@ -407,9 +406,9 @@ footer a {
 	top: -40px;
 	justify-content: center;
 	align-items: center;
+	padding-bottom: 20px;
 	width: 70%;
 	margin-left: 15%;
-	padding-bottom: 10px;
 	border-radius: 25px 25px 0px 0px;
 }
 
